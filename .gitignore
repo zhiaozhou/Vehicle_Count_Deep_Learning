@@ -1,0 +1,11 @@
+/data_classification/*
+/data_detection/*
+/detection_image/*
+/my_train_CNN/*
+/my_eval_CNN/*
+/my_eval_resnet/*
+/my_train_resnet/*
+/checkpoints/*
+/checkpoints_detection/*
+/slim/*
+/object_detection/*
