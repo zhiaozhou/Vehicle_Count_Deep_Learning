@@ -18,8 +18,8 @@ Demo
 This project also contains a demo website that shows how our model works which is yielded by Demo_Detection.ipynb
 We tested our models on a traffic cam from 6th Avenue, Manhattan, New York
 <p float="center">
-    <img src="./Examples/example1.gif" alt="Drawing" style="width: 600px;" width="300"/> 
-    <img src="./Examples/example2.gif" alt="Drawing" style="width: 600px;" width="300"/>
+    <img src="./Examples/example1.gif" alt="Drawing" style="width: 900px;" width="300"/> 
+    <img src="./Examples/example2.gif" alt="Drawing" style="width: 900px;" width="300"/>
 </p>
 
 Paper
