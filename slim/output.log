@@ -1,0 +1,57 @@
+nohup: ignoring input
+/home/paperspace/anaconda3/envs/fastai/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING:tensorflow:From train_image_classifier.py:410: create_global_step (from tensorflow.contrib.framework.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.create_global_step
+WARNING:tensorflow:From train_image_classifier.py:476: softmax_cross_entropy (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.softmax_cross_entropy instead. Note that the order of the logits and labels arguments has been changed.
+WARNING:tensorflow:From /home/paperspace/anaconda3/envs/fastai/lib/python3.6/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:398: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+WARNING:tensorflow:From /home/paperspace/anaconda3/envs/fastai/lib/python3.6/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:399: compute_weighted_loss (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.compute_weighted_loss instead.
+WARNING:tensorflow:From /home/paperspace/anaconda3/envs/fastai/lib/python3.6/site-packages/tensorflow/contrib/losses/python/losses/loss_ops.py:152: add_arg_scope.<locals>.func_with_args (from tensorflow.contrib.losses.python.losses.loss_ops) is deprecated and will be removed after 2016-12-30.
+Instructions for updating:
+Use tf.losses.add_loss instead.
+INFO:tensorflow:Ignoring --checkpoint_path because a checkpoint already exists in /home/paperspace/Vehicle_Count/my_train_resnet
+WARNING:tensorflow:From /home/paperspace/anaconda3/envs/fastai/lib/python3.6/site-packages/tensorflow/contrib/slim/python/slim/learning.py:736: Supervisor.__init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-05-02 01:25:16.683425: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2
+2018-05-02 01:25:16.800436: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:895] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-05-02 01:25:16.800826: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1105] Found device 0 with properties: 
+name: Quadro P5000 major: 6 minor: 1 memoryClockRate(GHz): 1.7335
+pciBusID: 0000:00:05.0
+totalMemory: 15.89GiB freeMemory: 15.60GiB
+2018-05-02 01:25:16.800856: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1195] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Quadro P5000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+INFO:tensorflow:Restoring parameters from /home/paperspace/Vehicle_Count/my_train_resnet/model.ckpt-15585
+INFO:tensorflow:Starting Session.
+INFO:tensorflow:Saving checkpoint to path /home/paperspace/Vehicle_Count/my_train_resnet/model.ckpt
+INFO:tensorflow:Starting Queues.
+INFO:tensorflow:global_step/sec: 0
+INFO:tensorflow:Recording summary at step 15585.
+INFO:tensorflow:global step 15590: loss = 0.6840 (1.336 sec/step)
+INFO:tensorflow:global step 15600: loss = 0.7240 (1.326 sec/step)
+INFO:tensorflow:global step 15610: loss = 0.6771 (1.340 sec/step)
+INFO:tensorflow:global step 15620: loss = 0.7896 (1.322 sec/step)
+INFO:tensorflow:global step 15630: loss = 0.7049 (1.333 sec/step)
+INFO:tensorflow:global step 15640: loss = 0.6818 (1.327 sec/step)
+INFO:tensorflow:global step 15650: loss = 0.7514 (1.334 sec/step)
+INFO:tensorflow:global step 15660: loss = 0.8368 (1.337 sec/step)
+INFO:tensorflow:global step 15670: loss = 0.6084 (1.351 sec/step)
+INFO:tensorflow:global step 15680: loss = 0.8153 (1.336 sec/step)
+INFO:tensorflow:global step 15690: loss = 0.7730 (1.373 sec/step)
+INFO:tensorflow:global step 15700: loss = 0.7154 (1.354 sec/step)
+INFO:tensorflow:global step 15710: loss = 0.8924 (1.372 sec/step)
+INFO:tensorflow:global step 15720: loss = 0.9428 (1.355 sec/step)
+INFO:tensorflow:global step 15730: loss = 0.8719 (1.388 sec/step)
+INFO:tensorflow:global step 15740: loss = 0.6822 (1.357 sec/step)
+INFO:tensorflow:global step 15750: loss = 0.7008 (1.363 sec/step)

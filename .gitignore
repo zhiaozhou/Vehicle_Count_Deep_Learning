@@ -7,5 +7,9 @@
 /my_train_resnet/*
 /checkpoints/*
 /checkpoints_detection/*
-/slim/*
+/slim/datasets/*
+/slim/deployment/*
+/slim/nets/*
+/preprocessing/*
+/scripts/*
 /object_detection/*
